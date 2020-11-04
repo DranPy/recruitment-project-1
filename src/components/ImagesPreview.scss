@@ -1,0 +1,23 @@
+.images-preview {
+  &-main {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  &-thumbnails {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-thumbnail {
+    display: inline-block;
+    flex: 0 0 30%;
+    max-width: 100%;
+    padding: 0;
+    border: none;
+  }
+
+  &-image {
+    max-width: 100%;
+  }
+}
